@@ -1,0 +1,390 @@
+/*BODY*/
+
+* {
+  font-family: "Permanent Marker", cursive;
+}
+
+/*BODY*/
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*SECTIONS*/
+
+#header-section {
+  height: 80px;
+}
+
+/*HEADER*/
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: #FFFFFF;
+  padding: 0;
+  font-family: "Permanent Marker", cursive;
+  border-bottom: 3px solid #C70039;
+}
+
+/*HEADER - MENU NAV*/
+
+nav {
+  color: #FFFFFF;
+  padding: 0;
+  }
+
+nav a {
+  color: #C70039;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #000000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+}
+
+#main-section {
+  height: 600px;
+  background-color: #00224D;
+  display: flex;
+  gap: 50px;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-section-container {
+  height: 300px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-section-text {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: px 0px;
+}
+
+#main-heading-1 {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin: 0px;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+}
+
+#main-heading-2 {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+}
+
+#about-section {
+  height: 600px;
+  scroll-margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  border-radius: 0px 0px 100px 100px;
+}
+
+#avatar {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#devin {
+  font-size: 30px;
+  font-family: "Permanent Marker", cursive;
+  margin: 30px 0px 0px 0px;
+}
+
+#developer {
+font-size: 35px;
+font-family: "Permanent Marker", cursive;
+margin: 0px;
+color: #C70039;
+text-align: center;
+}
+
+#projects-section {
+  height: 650px;
+  background-color: #EEEEEE;
+  scroll-margin-top: 80px;
+}
+
+#projects-heading {
+  font-size: 35px;
+  height: 50px;
+  font-family: "Permanent Marker", cursive;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#projects-section-container {
+  height: 400px;
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.card {
+  height: 400px;
+  width: 300px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 5px 5px #00000030;
+}
+
+.card-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+}
+
+.project-nr {
+  margin: 20px 0px 0px 0px;
+}
+
+.project-title {
+  margin: 10px 0px 20px 0px;
+  color: #C70039;
+  font-size: 20px;
+}
+
+#contact-section {
+  height: 500px;
+  background-color: #00224D;
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-section-container {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-heading-1 {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin: 0px;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#contact-heading-2 {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#contact-heading-3 {
+  color: #C70039;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  margin-top: 0px;
+}
+
+
+/*FOOTER*/
+
+footer {
+  height: 80px;
+  background-color: #FFFFFF;
+  border-top: 3px solid #C70039;
+  padding: 0 20px;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-title {
+  font-size: 20px;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 1024px) {
+ 
+#header-section {
+  height: 60px;
+}
+
+/*HEADER*/
+
+header {
+  height: 60px;
+  border-bottom: 2px solid #C70039;
+}
+
+/*HEADER - MENU NAV*/
+
+nav a {
+  font-size: 15px;
+}
+
+#main-section {
+  height: 400px;
+}
+
+#main-section-container {
+  height: 200px;
+}
+
+#main-heading-1 {
+  font-size: 35px;
+}
+
+#main-heading-2 {
+  font-size: 20px;
+}
+
+#about-section {
+  height: 400px;
+  scroll-margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  border-radius: 0px 0px 100px 100px;
+}
+
+#avatar {
+  height: 150px;
+  width: 150px;
+}
+
+#devin {
+  font-size: 20px;
+}
+
+#developer {
+font-size: 25px;
+}
+  
+  #projects-section {
+    height: auto;
+    background-color: #EEEEEE;
+    scroll-margin-top: 80px;
+  }
+ 
+  #projects-heading {
+    font-size: 30px;
+    height: 50px;
+    margin: 50px 0px 0px 0px;
+  }
+
+  #projects-section-container {
+    height: auto;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 50px 0px;
+  }
+
+.project-nr {
+  margin: 20px 0px 0px 0px;
+}
+
+.project-title {
+  margin: 10px 0px 20px 0px;
+  color: #C70039;
+  font-size: 20px;
+}
+
+#contact-section {
+  height: 300px;
+}
+
+
+#contact-heading-1 {
+  font-size: 35px;
+}
+
+#contact-heading-2 {
+  font-size: 20px;
+}
+
+#contact-heading-3 {
+  font-size: 30px;
+}
+
+
+/*FOOTER*/
+
+footer {
+  height: 60px;
+}
+}
